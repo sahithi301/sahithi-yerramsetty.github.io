@@ -3,140 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sahithi Yerramsetty - Portfolio</title>
+    <title>Sahithi Yerramsetty | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
             text-align: center;
         }
-        header h1 {
-            margin: 0;
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        h1 {
             font-size: 2.5em;
+            font-weight: 600;
         }
-        section {
-            padding: 20px;
-            margin: 20px;
+        h2 {
+            color: #ffd700;
         }
-        .contact-info {
-            list-style-type: none;
-            padding: 0;
-        }
-        .contact-info li {
-            margin: 5px 0;
-        }
-        .contact-info li a {
-            color: #333;
+        a {
+            color: #ffd700;
             text-decoration: none;
+            font-weight: bold;
         }
-        .contact-info li a:hover {
-            text-decoration: underline;
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
         }
-        .skills ul {
-            list-style-type: none;
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #ffd700;
+            color: #000;
+            border-radius: 5px;
+        }
+        ul {
+            list-style: none;
             padding: 0;
         }
-        .skills li {
-            margin: 5px 0;
-        }
-        .experience ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .experience li {
-            margin: 15px 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        ul li {
+            padding: 5px 0;
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Sahithi Yerramsetty</h1>
-        <p>Data Analyst | Tech Enthusiast | Lifelong Learner</p>
-    </header>
-
-    <section>
-        <h2>Contact Information</h2>
-        <ul class="contact-info">
-            <li>Email: <a href="mailto:syerra12@asu.edu">syerra12@asu.edu</a></li>
-            <li>GitHub: <a href="https://github.com/sahithi-yerramsetty" target="_blank">sahithi-yerramsetty</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/sahithi-yerramsetty" target="_blank">sahithi-yerramsetty</a></li>
-            <li>Phone: +1 (623)-297-1556</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Education</h2>
-        <p><strong>Arizona State University, Tempe, AZ, USA</strong><br>
-            Masters in Information Technology; GPA: 4.00/4.00
-        </p>
-        <p><strong>G. Narayanamma Institute of Technology and Science, Hyderabad, India</strong><br>
-            Bachelors in Electronics and Communication Engineering; GPA: 8.51/10.0
-        </p>
-    </section>
-
-    <section class="experience">
-        <h2>Work Experience</h2>
-        <h3>Deloitte USI - Data Analyst</h3>
-        <ul>
-            <li>Contributed to the Health and Wellness domain within a cloud data service team, ensuring high-quality data delivery for reporting purposes.</li>
-            <li>Modeled and curated data both logically and physically to meet specific business requirements, facilitating accurate and relevant domain-specific reports.</li>
-            <li>Employed Microsoft Azure and Databricks for efficient data processing and management throughout the data lifecycle.</li>
-            <li>Developed and maintained interactive Power BI reports using curated views in Synapse, providing actionable insights for decision-making.</li>
-            <li>Played an integral role in the development, curation, and integration of diverse data models to support comprehensive analysis and reporting.</li>
-            <li>Collaborated with a team to provide data services for AbbVie Pharmaceuticals, including the creation and testing of data feeds tailored to their needs.</li>
-            <li>Modified an automated testing framework to streamline the testing process, improving efficiency and accuracy in data validation.</li>
-        </ul>
-
-        <h3>Internship Studio Hyderabad, India - Data Science Intern</h3>
-        <ul>
-            <li>Developed a Random Forest Regression model to predict YouTube ad views using historical data.</li>
-            <li>Processed and cleaned datasets to ensure data quality and optimized model performance with Grid Search and Cross-Validation.</li>
-        </ul>
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Languages:</strong> Python, Java, SQL, C, HTML, CSS, PHP</li>
-            <li><strong>Data Visualization:</strong> Microsoft Power BI, Tableau, Excel</li>
-            <li><strong>Databases:</strong> Oracle, MySQL, Microsoft SQL Server</li>
-            <li><strong>Tools and Skills:</strong> Azure, Azure Databricks, Jira, Git, ServiceNow, Google Cloud Platform, Docker</li>
-            <li><strong>Framework/Libraries:</strong> PySpark, pandas, NumPy, Scikit-learn</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Certifications & Courses</h2>
-        <ul>
-            <li><strong>AI Certification (Nov. 2023) - Deloitte, IIT Roorkee</strong>: Completed an 8-week AI certification program featuring extensive training and a capstone project analyzing bank survey data with Python and PySpark.</li>
-            <li><strong>Software Engineering and Data Science (Aug. 2023) - IIIT Hyderabad, Great Learning</strong>: Focused on modern software engineering practices, cloud computing, and data engineering.</li>
-            <li><strong>Learning Paladins (May. 2021) - Cognizant</strong>: Intensive training in Java and front-end web technologies.</li>
-            <li><strong>Machine Learning for All (May. 2020) - Coursera</strong></li>
-            <li><strong>The Complete Oracle SQL Bootcamp (Dec. 2022) - Udemy</strong></li>
-            <li><strong>AWS Cloud Practitioner (Currently Preparing)</strong></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Sahithi Yerramsetty | All Rights Reserved</p>
-    </footer>
+        <div class="contact">
+            <a href="mailto:syerra12@asu.edu">Email</a>
+            <a href="https://github.com/sahithi-yerramsetty" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sahithi-yerramsetty" target="_blank">LinkedIn</a>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Arizona State University, Tempe, AZ</strong><br>Masters in Information Technology (2024 - Present) | GPA: 4.00/4.00</p>
+            <p><strong>G. Narayanamma Institute of Technology and Science, Hyderabad, India</strong><br>Bachelors in Electronics and Communication Engineering (2018 - 2022) | GPA: 8.51/10.0</p>
+        </div>
+        
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Deloitte USI, Hyderabad</strong> | Data Analyst (Sept 2022 - Dec 2023)</p>
+            <ul>
+                <li>Developed Power BI reports using Azure and Databricks.</li>
+                <li>Worked on cloud data services in Health and Wellness domain.</li>
+            </ul>
+            <p><strong>Internship Studio, Hyderabad</strong> | Data Science Intern (Dec 2021 - Jan 2022)</p>
+            <ul>
+                <li>Developed a Random Forest model to predict YouTube ad views.</li>
+                <li>Optimized model performance using Grid Search & Cross-Validation.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Skills Summary</h2>
+            <p><strong>Languages:</strong> Python, Java, SQL, C, HTML, CSS, PHP</p>
+            <p><strong>Data Visualization:</strong> Power BI, Tableau, Excel</p>
+            <p><strong>Databases:</strong> Oracle, MySQL, Microsoft SQL Server</p>
+            <p><strong>Tools:</strong> Azure, Databricks, Google Cloud, Docker, Git</p>
+        </div>
+        
+        <div class="section">
+            <h2>Certifications & Courses</h2>
+            <ul>
+                <li>AI Certification - Deloitte, IIT Roorkee (2023)</li>
+                <li>Software Engineering & Data Science - IIIT Hyderabad (2023)</li>
+                <li>AWS Cloud Practitioner (Currently Preparing)</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
-
